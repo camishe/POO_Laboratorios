@@ -34,10 +34,6 @@ public class Control implements ActionListener{
         model.sumar();
         view.txt3.setText(String.valueOf(model.getTotal()));
     }
-
-    public void iniciar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
     
     

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package practica17mvc;
 
 import Control.Control;
@@ -24,7 +21,7 @@ public class Practica17MVC {
         Vista vis = new Vista();
         Control cont = new Control(vis, mod);
         
-        cont.iniciar();
+        cont.Iniciar();
         vis.setVisible(true);
         }    
 }
